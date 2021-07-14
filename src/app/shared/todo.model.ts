@@ -1,4 +1,7 @@
 export class ToDo{
-    text: string;
-    completed: boolean = false;
+   
+    constructor( 
+        public text: string,
+        public completed: boolean = false
+    ){}
 }

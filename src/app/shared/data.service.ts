@@ -6,7 +6,10 @@ import { ToDo } from './todo.model';
 })
 export class DataService {
 
-  todos: ToDo[]
+  todos: ToDo[] = [
+    new ToDo('this is a test text'),
+    new ToDo('Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente illum alias placeat amet! Ea aut corrupti, odit deleniti ullam exercitationem aspernatur nulla odio magni soluta ipsam incidunt consectetur explicabo nesciunt.')
+  ]
 
   constructor() { }
 
