@@ -2,6 +2,12 @@
 
 @import '../node_modules/bulma/bulma.sass';
 
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 .alt-gradient-button{
     border: none;
     background: linear-gradient(to right, rgb(3, 252, 231), rgb(3,252, 177));
@@ -28,4 +34,6 @@
         margin-left: -3px;
     }
 }
+
+
 
